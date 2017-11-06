@@ -1,0 +1,7 @@
+<h1></h1>
+<p class="letters">Your grid of letters was: <%= @grid_letters %> </p>
+<p class="attempt"> Your attempt was <strong> <%= @attempt %> </strong> which <%= @message %> </p>
+<p class="time">You took <strong> <%= @time_taken%> </strong> seconds and scored <strong> <%= @score %> </strong> </p>
+<!-- <p class="total-score">Your total score is <strong> <%= @total_score%> </strong> </p> -->
+
+<%= link_to "Play again", new_path  %>
